@@ -1,0 +1,22 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  width: 100%;
+}
+
+input[type='file'] {
+  visibility: hidden;
+}
+
+.image-preview {
+  width: 100px !important;
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
